@@ -4,6 +4,8 @@
 # I am supposed to treat those 3 py files like an external library.
 # I am not even really look in there and learn what they do...
 # ...except I should look at and use the documentation to understand and use them.
+# See PDF with instructions from Day 16 of the python bootcamp course:
+# https://www.udemy.com/course/100-days-of-code/learn/lecture/19914252
 
 
 from menu import Menu, MenuItem
