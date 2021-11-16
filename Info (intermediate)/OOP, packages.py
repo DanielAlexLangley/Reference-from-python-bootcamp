@@ -1,4 +1,7 @@
-# TODO delete this line
+
+import turtle
+from turtle import Screen
+from prettytable import PrettyTable
 
 
 text1 = '''
@@ -43,7 +46,7 @@ Inside the turtle module is a class called turtle.
 The format of the line of code below is:
 object_name = module.object()
 '''
-import turtle
+# import turtle
 timmy = turtle.Turtle()  # this line gives us a new turtle object called timmy
 print(timmy)
 
@@ -77,7 +80,7 @@ Screen is the window in which the turtle will show up.
 '''
 
 
-from turtle import Screen
+# from turtle import Screen
 my_screen = Screen()
 timmy.shape("turtle")  # these methods are listed on the website linked above
 timmy.color("red", "green")  # these methods are listed on the website linked above
@@ -114,7 +117,7 @@ Click "Install Package"
 Click the "X" in the top left window when it's done installing.
 '''
 
-from prettytable import PrettyTable
+# from prettytable import PrettyTable
 # in the above line, if you want to see source code of the package...
 # you can right click on it > Go To > Implementation(s)
 table = PrettyTable()
@@ -122,4 +125,3 @@ table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"])
 table.add_column("Type", ["Electric", "Water", "Fire"])
 table.align = "l"  # change attribute to left aligned
 print(table)
-
