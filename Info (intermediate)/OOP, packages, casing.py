@@ -29,6 +29,12 @@ car = CarBlueprint()
 Convention says to capitalise first letter of each word in BluePrint() name instead of separating by underscores...
 This is called "Pascal Case".
 
+camelCase is a different kind of casing which isn't used here.
+camelCase capitalizes every word except the first.
+
+snake_case:
+all words lowercase, but separated by _
+
 When making an object, most people name the object the same as the blueprint...
 ...except all in lowercase and words separated by underscores.
 So an object made from "CarBlueprint()" would probably be named car_blueprint 
@@ -38,7 +44,6 @@ This library comes preloaded in every download of python, so we should already h
 See these links:
 https://docs.python.org/3/library/turtle.html
 https://cs111.wellesley.edu/labs/lab01/colors
-
 '''
 
 
