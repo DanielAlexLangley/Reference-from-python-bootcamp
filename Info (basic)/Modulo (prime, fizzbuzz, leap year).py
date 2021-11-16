@@ -10,6 +10,21 @@ print(m1)
 print("\n")
 
 
+# is it a prime number (using modulo)
+def prime_checker(number):
+    is_prime = True
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+    if is_prime:
+        print("It's a prime number.")
+    else:
+        print("It's not a prime number.")
+n = int(input("Check this number: "))
+prime_checker(number=n)
+print("\n")
+
+
 # Fizz Buzz game:
 # if divisible by 3, fizz
 # if divisible by 5, buzz
