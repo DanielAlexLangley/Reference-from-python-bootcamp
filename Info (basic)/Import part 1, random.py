@@ -67,9 +67,3 @@ elif (int(user_choice) == 2 and comp_choice == 1) or (int(user_choice) == 1 and 
     print("You win.")
 else:
     print("You lose.")
-
-
-# import just a portion
-# from pi import pie
-# print(pie)
-
