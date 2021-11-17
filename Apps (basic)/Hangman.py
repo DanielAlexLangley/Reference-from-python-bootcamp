@@ -293,7 +293,7 @@ print(logo)
 game_is_finished = False
 lives = len(stages) - 1
 chosen_word = random.choice(word_list)
-print(f'Pssst, the solution is {chosen_word}.')  # Testing code
+print(f'The solution is {chosen_word}.')  # Testing code
 word_length = len(chosen_word)
 display = []
 for _ in range(word_length):
@@ -322,7 +322,7 @@ while not game_is_finished:
             game_is_finished = True
             print("You lose.")
 
-    if not "_" in display:
+    if not "_" in display:  # TODO investigate this warning
         game_is_finished = True
         print("You win.")
 
