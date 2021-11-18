@@ -1,5 +1,2 @@
 
-
-# test
-# test
-
+# See directories for info and apps.
