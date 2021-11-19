@@ -8,8 +8,10 @@ MOVE_INCREMENT = 10  # This is how much the move distance should increase every 
 
 
 class CarManager(Turtle):
+
     def __init__(self):
         super().__init__()
+        self.hideturtle()
         self.all_cars = []
         self.car_speed = STARTING_MOVE_DISTANCE
 
