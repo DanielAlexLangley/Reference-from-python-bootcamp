@@ -19,11 +19,19 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        new_segment = Turtle("square")
+        new_segment.color("white")
+        new_segment.penup()
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    def extend(self):
+        # Add a new segment to the snake.
+        # For a list, you can write a negative number to count from the end of the list. -1 gives the last item.
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
         # In the range function here, the left number is the number it will start on,
