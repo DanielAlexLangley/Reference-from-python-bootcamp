@@ -9,6 +9,10 @@ screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("My snake game")
+# Tracer controls the animation. To turn off animation, put 0.
+# If you disable animation like this, it will stay off.
+# If you turn off animation, you have to manually update screen and refresh it every time you want to see an update.
+# Use a while loop for that.
 screen.tracer(0)
 
 scoreboard = Scoreboard()
