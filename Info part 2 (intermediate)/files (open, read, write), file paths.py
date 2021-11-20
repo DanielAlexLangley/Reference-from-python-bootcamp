@@ -32,6 +32,7 @@ print(file)
 
 # "word" in the line below is a variable that you can name whatever you want the variable named.
 with open("my_text.txt", mode="a") as file:
+    # THIS .READ() SAVES IT AS A STRING, NOT A LIST
     # contents = file.read()
     file.write("\nLine 2.")
     print(file)
