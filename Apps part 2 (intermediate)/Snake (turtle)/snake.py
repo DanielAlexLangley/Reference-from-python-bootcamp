@@ -28,6 +28,14 @@ class Snake:
         new_segment.goto(position)
         self.segments.append(new_segment)
 
+    def reset(self):
+        # This method basically is a copy of the initializer.
+        for seg in self.segments:
+            seg.goto(1000, 1000)
+        self.segments.clear()  # This clears out the list.
+        self.create_snake()
+        self.head = self.segments[0]
+
     def extend(self):
         # Add a new segment to the snake.
         # For a list, you can write a negative number to count from the end of the list. -1 gives the last item.
