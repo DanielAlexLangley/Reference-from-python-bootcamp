@@ -7,7 +7,7 @@ import time
 
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.bgcolor("black")
+screen.bgcolor("green")
 screen.title("My snake game")
 # Tracer controls the animation. To turn off animation, put 0.
 # If you disable animation like this, it will stay off.
