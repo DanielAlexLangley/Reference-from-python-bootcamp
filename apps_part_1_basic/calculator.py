@@ -1,4 +1,5 @@
-# RECURSION
+
+# EXAMPLE OF RECURSION
 # is a function that calls itself
 # see the calculator function below, how it is called at the end of the loop to start over
 
