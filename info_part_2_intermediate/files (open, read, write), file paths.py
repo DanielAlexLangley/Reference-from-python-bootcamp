@@ -41,16 +41,16 @@ text2 = '''
 
 "Absolute file path" is always relative to the root (which is C drive).
 Like:
-C:\MyBackupCtoG\PycharmProjects\Reference-from-python-bootcamp\main.py
+C:\MyBackupCtoG\PycharmProjects\reference_from_python_bootcamp\main.py
 
 "Working directory" is the folder we're currently working from.
 "Relative file path" is relative to the working directory.
 Like if the working directory was PycharmProjects, then the relative file path would be:
-./Reference-from-python-bootcamp/main.py
+./reference_from_python_bootcamp/main.py
 
 (Even on Windows it's correct to use forward rather than backslashes, even though Windows uses backslashes.)
 
-What if your working folder was Reference-from-python-bootcamp but you needed a file from PycharmProjects?
+What if your working folder was reference_from_python_bootcamp but you needed a file from PycharmProjects?
 Use two dots.
 Two dots represents going up one step in the hierarchy to the parent folder.
 ../
@@ -64,7 +64,7 @@ Like if a file was on the desktop, it would be
 So you don't write the C: part.
 
 So if I wanted to go from my working folder of:
-C:\MyBackupCtoG\PycharmProjects\Reference-from-python-bootcamp
+C:\MyBackupCtoG\PycharmProjects\reference_from_python_bootcamp
 To:
 C:\Users\Daniel\Desktop\MyStuff
 It would be:

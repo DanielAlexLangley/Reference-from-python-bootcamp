@@ -1,4 +1,6 @@
 
+
+
 ################### Scope ####################
 #this concept doesn't just apply to variables
 #also applies to anything else you can name like functions
@@ -14,8 +16,6 @@ def increase_enemies():
 
 increase_enemies()
 print(f"enemies outside function: {enemies}")
-
-
 
 
 
