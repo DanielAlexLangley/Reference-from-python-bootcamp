@@ -1,5 +1,4 @@
 
-#
 # TODO A few bugs below. The program loops (when it shouldn't) inside the if statement(s).
 
 

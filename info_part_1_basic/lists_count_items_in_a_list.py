@@ -1,7 +1,7 @@
 
 # count number of items in a list
 
-import random
+import random_info
 
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")

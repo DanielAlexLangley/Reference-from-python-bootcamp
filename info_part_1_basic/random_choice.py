@@ -1,7 +1,7 @@
 
 # random choice
 
-import random
+import random_info
 
 list1 = ["Item 1", "Item 2", "Item 3"]
 random_list1 = random.choice(list1)

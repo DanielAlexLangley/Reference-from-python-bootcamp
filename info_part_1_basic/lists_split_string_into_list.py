@@ -1,7 +1,7 @@
 
 # split string into list
 
-import random
+import random_info
 
 names_string = input("Give me everybody's names, separated by a comma and a space: ")  # type is string
 names = names_string.split(", ")                                           # type is list
