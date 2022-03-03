@@ -17,7 +17,7 @@ greet_with("Jack Bauer", "Nowhere")
 greet_with("Nowhere", "Jack Bauer")
 
 
-# Calling greet_with() with Keyword Arguments (inputs)
+# Calling greet_with() with Keyword Arguments (inputs) AKA Keyword Functions
 # These arguments can be switched around, it doesn't matter which order you write them in
 greet_with(location="London", name="Angela")
 
