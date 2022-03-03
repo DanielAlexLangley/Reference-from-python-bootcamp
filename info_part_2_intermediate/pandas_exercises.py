@@ -3,6 +3,7 @@
 print("Exercise 1:")
 with open("pandas_weather_data.csv") as data_file:
     data = data_file.readlines()  # .readlines takes each line in the file and will turn it into an item in a list.
+    print(type(data))
     print(data)
     print("\n")
 
