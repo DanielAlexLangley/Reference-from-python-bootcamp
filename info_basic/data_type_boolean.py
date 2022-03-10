@@ -1,11 +1,15 @@
 
-# data type is boolean (only true or false)
-# first letter is always capital letter
+# BOOLEAN
+# A DATA TYPE
+
+# A boolean can only be true or false.
+# First letter is always a capital letter.
 
 one = True
 two = False
 
-# why do lines 10 and 11 work?:
-
-if True:
+if one:
     print("It's true!")
+# Output: It's true!
+
+# "if True" also works instead of "if one".

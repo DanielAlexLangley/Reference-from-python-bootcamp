@@ -55,6 +55,7 @@ print(type(data))  # data type of "data" is a pandas DataFrame object.
 # A dataframe is like one entire sheet of a spreadsheet.
 print(type(data["temp"]))  # This datatype is a series.
 # A series is like a list that is a single column in your table.
+print(data["temp"])
 print("\n")
 
 

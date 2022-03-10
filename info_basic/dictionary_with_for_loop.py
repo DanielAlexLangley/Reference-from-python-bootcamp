@@ -1,4 +1,7 @@
 
+# DICTIONARIES
+# USE A FOR LOOP TO CHANGE THE VALUE OF EACH KEY
+
 student_scores = {
     "Harry": 81,
     "Ron": 78,
@@ -6,9 +9,6 @@ student_scores = {
     "Draco": 74,
     "Neville": 62,
 }
-# 🚨 Don't change the code above 👆
-# assignment: Create an empty dictionary called student_grades.
-# assignment: Write your code below to add the grades to student_grades.👇
 
 student_grades = {}
 for student in student_scores:
@@ -22,5 +22,12 @@ for student in student_scores:
     else:
         student_grades[student] = "Fail"
 
-# 🚨 Don't change the code below 👇
 print(student_grades)
+# Output:
+# {
+#     'Harry': 'Exceeds Expectations',
+#     'Ron': 'Acceptable',
+#     'Hermione': 'Outstanding',
+#     'Draco': 'Acceptable',
+#     'Neville': 'Fail'
+# }

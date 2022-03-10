@@ -1,7 +1,10 @@
 
-# Convert into a float
+# CONVERT INTO A FLOAT
 
-b = 123
+a = 123
+print(type(a))
+# Output: <class 'int'>
+
+b = float(a)
 print(type(b))
-c = float(b)
-print(type(c))
+# Output: <class 'float'>

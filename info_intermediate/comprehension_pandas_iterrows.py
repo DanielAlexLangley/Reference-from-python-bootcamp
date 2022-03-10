@@ -19,12 +19,12 @@ for (key, value) in student_data_frame.items():
 # Allows us to loop through rows rather than columns.
 # Keyword Method with iterrows()
 # {new_key:new_value for (index, row) in df.iterrows()}
-for (index, row) in student_data_frame.iterrows():
-    print(index)
-    print(row)
-    print(row.student)
-    print(row.score)
-    if row.student == "Angela":
-        print(row.score)
+# for (index, row) in student_data_frame.iterrows():
+#     print(index)
+#     print(row)
+#     print(row.student)
+#     print(row.score)
+#     if row.student == "Angela":
+#         print(row.score)
 
 # SEE NATO ALPHABET APP FOR BETTER EXAMPLE

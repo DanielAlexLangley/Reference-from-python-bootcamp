@@ -1,10 +1,13 @@
 
-text1 = '''
-How to create a class:
-class ClassName:
-    code
-'''
+# HOW TO CREATE A CLASS
+# Use Pascal case (capitalize first letter in each word, and don't use underscores to separate words).
 
+# Correct: BluePrint()
+# Incorrect: Blue_Print()
 
-class User1:
+# Example:
+# class ClassName:
+#     code
+
+class UserName:
     pass
