@@ -1,0 +1,106 @@
+/********** Tag Selectors **********/
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: #66BFBF;
+}
+h3 {
+    color: #66BFBF;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 4px;
+    height: 0px;
+    width: 4%;
+}
+hr:hover {
+    width: 40%;
+}
+/********** Class Selectors **********/
+.Underline {
+    text-decoration: underline;
+}
+.WorkExperience {
+    color: red;
+}
+/********** ID Selectors **********/
+#heading {
+    color: purple;
+}
+/*
+This is how to make a comment.
+
+What's the difference between ID and Class?
+"The difference between an ID and a class is that an ID is only used to identify one single element in our HTML.
+IDs are only used when one element on the page should have a particular style applied to it.
+However, a class can be used to identify more than one HTML element."
+An element can have more than one class, but only one ID.
+There can be different IDs on the same page, as long as the IDs are unique.
+
+Box model.
+Every element has: the element itself, padding, border, margin.
+
+Display: Block, inline, inline block, none.
+
+Visibility: hidden.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
+Position: Static, relative, absolute, fixed.
+- HTML elements are static by default, which means go along with HTML rules and stick to that.
+- Relative is adding a margin relative to where the element should have been (had it been static). The original
+location of where the element would have been is maintained.
+- Absolute is adding a margin to its next parent element that is relative (not absolute).
+The original location of the element is not maintained.
+- Fixed means the element won't scroll.
+
+Text align: put this in the parent element. Will center elements that don't have a width set.
+Block elements that have a width set will have to use:
+margin: 0 auto 0 auto; (first is top, second is right, third is bottom, fourth is left.
+auto will center element vertically or horizontally.
+
+serif vs sans-serif vs monospace
+Serif has the little things coming off the characters; sans-serif does not.
+Monospace makes each character take up the same amount of space.
+font-family: verdana, sans-serif;
+^ this will make verdana be used if the browser/os has it available,
+otherwise it will default to whatever sans-serif that browser/os has installed.
+That could be a problem since it may use the wrong font.
+To avoid this, use web-safe fonts: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+But no font is 100% web safe, so what do you do if you want to use a less safe web font?
+Use a fallback...
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+So it will try those in order from left to right.
+You can also do font embedding:
+https://fonts.google.com/
+
+font-size: can use pixels or percentage.
+for percentage, 100% equals 16 pixels.
+So if you want bigger than 16 pixels, you have to go above 100%,
+like 562.5% equals 90px.
+Seems to be better to use percentage for font size, so that if the user changes
+their font size preference in their browser options (such as to small or large),
+then the percentage will allow the font size to change with it.
+Instead of pixels or percentage, you can set em, such as 1em or 2em.
+Each em is equals to 16 pixels,
+so 562.5em equals 90px.
+% and em are dynamic, meaning they will scale up, whereas pixel size is static and won't scale.
+Zoom will scale up the website whether font is static or dynamic.
+Dynamic font size is inherited, so if font size is set in body as 2em,
+then font size is set in h1 which is in the body at 2em, then those two stack;
+but that won't happen if font is statically set with pixels.
+"rem" means ignore all parent settings for font size,
+and just look at its own size.
+So use rem.
+
+Floating / float property.
+If you float an image to the left, then all text will wrap around to the right.
+If you clear an image to the left, then no text will wrap around on the right,
+and instead the text will be below the image since there's no where else for it to go.
+Float is often abused by programmers.
+Only use it to wrap text around a certain element (instead of for other uses),
+since using float for positioning and other reasons can cause unintended consequences.
+
+*/
