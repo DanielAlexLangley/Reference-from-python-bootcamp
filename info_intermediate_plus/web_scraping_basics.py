@@ -1,7 +1,7 @@
 
 from bs4 import BeautifulSoup
 
-with open("../apps_intermediate_plus/movie_scraping/website.html", encoding="utf-8") as file:
+with open("../apps_intermediate_plus/scraping_movies/website.html", encoding="utf-8") as file:
     contents = file.read()
 
 soup = BeautifulSoup(contents, "html.parser")
