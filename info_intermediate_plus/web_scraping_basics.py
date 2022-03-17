@@ -50,3 +50,6 @@ headings = soup.select(".heading")  # Searching for a class of "heading".
 print(headings)
 # This is helpful since many elements you'll want to find will be inside divs that have an "ID",
 # so just narrow down on div then drill down on the element you want.
+
+# Beautiful Soup is good for scraping info from an HTML website.
+# Selenium is better for websites that are rendered with javascript, angular, or react.
