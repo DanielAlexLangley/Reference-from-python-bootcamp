@@ -28,5 +28,4 @@ while True:
         if item_store.get_attribute("class") == "product unlocked enabled":
             item_store.click()
 
-print(cookies)
 driver.quit()

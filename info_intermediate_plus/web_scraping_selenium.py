@@ -125,3 +125,11 @@ from webdriver_manager.firefox import GeckoDriverManager
 # search = driver.find_element(by=By.CLASS_NAME, value="btn")
 # search.submit()
 # driver.quit()
+#
+#
+#
+# from selenium.common.exceptions import NoSuchElementException
+# Selenium has a custom exception that gets raised when an element
+# cannot be found it's called NoSuchElementException
+# Must import it to use it.
+#
