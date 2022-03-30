@@ -12,13 +12,11 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">{{ cafes[0][0] }}</th>
-                        <th scope="col">{{ cafes[0][1] }}</th>
-                        <th scope="col">{{ cafes[0][2] }}</th>
-                        <th scope="col">{{ cafes[0][3] }}</th>
-                        <th scope="col">{{ cafes[0][4] }}</th>
-                        <th scope="col">{{ cafes[0][5] }}</th>
-                        <th scope="col">{{ cafes[0][6] }}</th>
+                        {% for row in cafes[:1] %}
+                            {% for item in row %}
+                                <th scope="col">{{ item }}</th>
+                            {% endfor %}
+                        {% endfor %}
                     </tr>
                 </thead>
                 <tbody>
