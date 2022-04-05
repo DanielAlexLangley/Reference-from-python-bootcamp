@@ -15,3 +15,4 @@ print(f"Each person should pay: ${round(((total / split) * ((tip / 100) + 1)), 2
 bill_per_person = round(((total / split) * ((tip / 100) + 1)), 2)
 final_amount = "{:.2f}".format(bill_per_person)
 print(f"Each person should pay: ${final_amount}")
+
