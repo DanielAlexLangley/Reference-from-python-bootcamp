@@ -5,6 +5,7 @@
 # A decorator function is a function that gives additional functionality to an existing function.
 # https://stackoverflow.com/questions/739654/how-to-make-function-decorators-and-chain-them-together/1594484#1594484
 
+
 # ********Day 54 Start**********
 # Functions can have inputs/functionality/output
 def add(n1, n2):
@@ -56,10 +57,12 @@ def delay_decorator(function):  # This is the decorator function in this example
         # If you wanted to add some functionality after the function, you would add it here.
     return wrapper_function
 
+
 @delay_decorator  # This decorator will apply to the function in the line immediately below it ("say_hello"):
 def say_hello():
     print("Hello")
 say_hello()
+
 
 # Without the @ syntactic sugar
 def say_greeting():
@@ -68,6 +71,7 @@ decorated_function = delay_decorator(say_greeting)
 decorated_function()
 # This example is another way to do it, but this is not the preferred way.
 # The preferred way is to use the @ syntactic sugar way.
+
 
 # With the @ syntactic sugar
 # "Syntactic sugar" is syntax you can write to make it easier to write an alternative line of code.

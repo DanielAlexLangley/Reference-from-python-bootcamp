@@ -9,14 +9,14 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-##CREATE DATABASE
+# CREATE DATABASE
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///books.db"
-#Optional: But it will silence the deprecation warning in the console.
+# Optional: But it will silence the deprecation warning in the console.
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 
-##CREATE TABLE
+# CREATE TABLE
 class Book(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(250), unique=True, nullable=False)
@@ -29,7 +29,7 @@ db.create_all()
 
 @app.route('/')
 def home():
-    ##READ ALL RECORDS
+    # READ ALL RECORDS
     all_books = db.session.query(Book).all()
     return render_template("index.html", books=all_books)
 

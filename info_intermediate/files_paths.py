@@ -1,12 +1,12 @@
 
 # "Absolute file path" is always relative to the root (which is C drive).
 # Example of absolute path:
-# C:\MyBackupCtoG\PycharmProjects\reference_from_python_bootcamp\main.py
+# C:\MyBackupCtoG\PycharmProjects\reference_from_python_bootcamp\ma in.py
 #
 # "Working directory" is the folder we're currently working from.
 # "Relative file path" is relative to the working directory.
 # Like if the working directory was PycharmProjects, then the relative file path would be:
-# ./reference_from_python_bootcamp/main.py
+# ./reference_from_python_bootcamp/ma in.py
 #
 # (Even on Windows it's correct to use forward rather than backslashes, even though Windows uses backslashes.)
 #
